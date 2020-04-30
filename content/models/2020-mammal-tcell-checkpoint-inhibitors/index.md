@@ -15,7 +15,7 @@ file_descriptions:
 - GINsim model
 notebooks:
 - T cell co-inhibitory pathways - Analysis - 20200429.ipynb
-- T cell co-inhibitory pathways - Unit Tests_20200429.ipynb'
+- T cell co-inhibitory pathways - Unit Tests_20200429.ipynb
 ---
 
 This comprehensive model integrates the available data on T cell activation,
