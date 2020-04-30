@@ -7,7 +7,7 @@ style: hg2
 
 TODO: add guidelines for submission
 
-* format: SBML qual
+* format: ZGINML or SBML qual
 * metadata: title, authors, abstract, doi
 * notebook(s) and version of the colomoto image
 
