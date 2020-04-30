@@ -1,0 +1,6 @@
+baseURL: https://aurelien-naldi.github.io/notebooks
+languageCode: en-us
+title: CoLoMoTo notebooks
+theme: ginsim
+params:
+        logo: colomoto_banner_white.svg
