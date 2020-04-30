@@ -13,6 +13,9 @@ files:
 - Hernandez_TcellCheckPoints_13april2020.zginml
 file_descriptions: 
 - GINsim model
+notebooks:
+- T cell co-inhibitory pathways - Analysis - 20200429.ipynb
+- T cell co-inhibitory pathways - Unit Tests_20200429.ipynb'
 ---
 
 This comprehensive model integrates the available data on T cell activation,
@@ -27,7 +30,4 @@ the nodes frozen following the persisting activation or inhibition of any model 
 The model verification approach greatly eased the delineation of logical rules complying with
 predefined dynamical specifications, while the use of the value propagation technique provided
 interesting insights into the differential potential of CTLA4 and PD-1 immunotherapies.
-
-All our analyses have been implemented into two python notebooks, enabling their reproduction
-or extension with the most recent version of the CoLoMoTo Docker image (http://www.colomoto.org/notebook).
 

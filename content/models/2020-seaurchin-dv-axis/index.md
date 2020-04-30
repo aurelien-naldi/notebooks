@@ -13,11 +13,13 @@ files:
 - SeaUrchin_model_ginsim.zginml
 - Flochlay_SeaUrchin_DV_model.sbml
 - Flochlay_SeaUrchin_model_epilog.peps
-- Flochlay_SeaUrchin_notebook.ipynb
 file_descriptions: 
 - Unicellular model in zginml format (to be used with GINsim 3.0)
 - Corresponding BioModels entry (SBML qual format)
 - Multicellular model in peps format (to be used with Epilog v1.1.1)
+notebooks:
+- Flochlay_SeaUrchin_notebook.ipynb
+notebook_descriptions: 
 - Jupiter Notebook (to be used with the colomoto-docker image)
 ---
 

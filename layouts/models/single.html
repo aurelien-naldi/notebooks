@@ -15,17 +15,24 @@
 {{ partial "printref.html" $ }}
 </div>
 
-<a href="https://mybinder.org/v2/gh/aurelien-naldi/notebooks/master?filepath={{.Dir}}">Open in mybinder</a>
 
 {{ .Content }}
 
 {{ partial "biblio.html" $ }}
+
+<hr>
+
+<a href="https://mybinder.org/v2/gh/aurelien-naldi/notebooks/master?filepath={{.Dir}}">Open in mybinder</a>
 
 <h3>Files</h3>
 <ul>
 {{ range .Params.files }}
     <li><a href="{{.}}">{{.}}</a></li>
 {{end}}
+{{ range .Params.notebooks }}
+<li><a href="{{.}}">{{.}}</a>  -  <span class="external action"><a href="https://nbviewer.jupyter.org/github/aurelien-naldi/notebooks/blob/master/content/{{$.Dir}}{{.}}">Preview in nbviewer</a></span></li>
+{{end}}
+
 </ul>
 
 </div>

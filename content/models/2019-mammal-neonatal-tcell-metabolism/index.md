@@ -13,12 +13,12 @@ supporting_paper: "228"
 files: 
 - TCR-REDOX-METABOLISM_2019-07-26.zginml
 - TCR-REDOX-METABOLISM_2019-07-26_reduced.zginml
-- TCell_activation_redox.html
-- TCell_activation_redox.ipynb
 file_descriptions: 
 - Model of T-cell activation under redox stress
 - The reduced model used for dynamical analysis
-- Web page showing the analysis notebook
+notebooks:
+- TCell_activation_redox.ipynb
+notebook_descriptions: 
 - Executable analysis notebook
 ---
 
@@ -31,9 +31,5 @@ interplay between antigen recognition with ROS and metabolic status in T cell
 responses. This model displays alternative stable states, which corresponds to
 different cell fates, i.e. quiescent, activated and anergic, depending on ROS
 status.
-
-
-The associated notebook can be loaded using the CoLoMoTo notebook docker image
-(see <http://www.colomoto.org/notebook>).
 
 
