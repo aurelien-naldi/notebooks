@@ -14,10 +14,12 @@ supporting_paper: "233"
 files: 
 - Cacace_Tdev_2nov2019.zginml
 - Cacace_TdevModel_SBML_2nov2019.sbml
-- Tdev_notebook_2nov2019.ipynb
 file_descriptions: 
 - GINsim model file
 - SBML model file
+notebooks:
+- Tdev_notebook_2nov2019.ipynb
+notebook_descriptions: 
 - Jupyter notebook using the CoLoMoTo environment
 ---
 
