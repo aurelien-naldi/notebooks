@@ -22,15 +22,17 @@
 
 <hr>
 
-<a href="https://mybinder.org/v2/gh/aurelien-naldi/notebooks/master?filepath={{.Dir}}">Open in mybinder</a>
+{{ $binderurl := "https://mybinder.org/v2/gh/aurelien-naldi/notebooks/master?filepath=" }}
+{{ $viewerurl := "https://nbviewer.jupyter.org/url/aurelien-naldi.github.io/notebooks/" }}
 
+<a href="{{ $binderurl }}{{.Dir}}">Open in mybinder</a>
 <h3>Files</h3>
 <ul>
 {{ range .Params.files }}
     <li><a href="{{.}}">{{.}}</a></li>
 {{end}}
 {{ range .Params.notebooks }}
-<li><a href="{{.}}">{{.}}</a>  -  <span class="external action"><a href="https://nbviewer.jupyter.org/github/aurelien-naldi/notebooks/blob/master/content/{{$.Dir}}{{.}}">Preview in nbviewer</a></span></li>
+<li><a href="{{.}}">{{.}}</a>  -  <span class="external action"><a href="{{$viewerurl}}/{{$.Dir}}{{.}}">Preview in nbviewer</a></span></li>
 {{end}}
 
 </ul>
